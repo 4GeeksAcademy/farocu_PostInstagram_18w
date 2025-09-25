@@ -7,17 +7,15 @@
 }
 
 body {
-    margin: 0%;
-    width: 1080px; 
-    height: 720px;   
+    margin: 0%;   
     background: black;
     display: flex;
     justify-content: center;
 }
 
 .post {
-    
-    max-width: 320px;
+    margin-top: 50px;
+    max-width: 420px;
     height: 80%;    
     background: white;
 }
@@ -28,22 +26,34 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 0;
 }
 
 .header-right i {
     font-size: 35px;
-    margin-top: 25%;
-    margin-left: 10%;
 }
 
 .header-post i {
     font-size: 35px;
 }
 
-.header-right {   
-    width: 30%;
+.header-right {     
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+}
+
+.header-text p {
+    margin: 0%;
+}
+
+.header-text :first-child {
+    font-weight: bold;
+}
+
+.btn {
+    background: none;
+    border: none;
+    cursor: pointer;
 }
 
 .img-post {
@@ -76,8 +86,14 @@ body {
 }
 
 .text-post {
-    width: 50%;
     height: 30%;
-    margin: 2%;
-     
+    margin: 3%;     
+}
+
+.liked-text spam{
+    font-weight: bold;
+}
+
+.liked-text {
+    margin: 3%;
 }
